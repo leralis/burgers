@@ -1,0 +1,29 @@
+{
+  "burgers": [
+    {
+      "name": "Сheesburger",
+      "image": "https://mcdonalds.com.au/sites/mcdonalds.com.au/files/Product_thumb_BigMac-201904.png"
+    },
+    {
+      "name": "Big Tasty",
+      "image": "https://mcdonalds.com.au/sites/mcdonalds.com.au/files/Product_thumb_BigMac-201904.png"
+    },
+    {
+      "name": "Big Mac",
+      "image": "https://mcdonalds.com.au/sites/mcdonalds.com.au/files/Product_thumb_BigMac-201904.png"
+    },
+    {
+      "name": "Chicken Burger",
+      "image": "https://mcdonalds.com.au/sites/mcdonalds.com.au/files/Product_thumb_BigMac-201904.png"
+    },
+    {
+      "name": "Double Filet-O-Fish",
+      "image": "https://mcdonalds.com.au/sites/mcdonalds.com.au/files/Product_thumb_BigMac-201904.png"
+    },
+    {
+      "name": "Double Cheeseburger",
+      "image": "https://mcdonalds.com.au/sites/mcdonalds.com.au/files/Product_thumb_BigMac-201904.png"
+    }
+
+  ]
+}

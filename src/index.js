@@ -3,10 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import BurgerConstructor from "./components/BurgerConstructor/BurgerConstructor";
+import ErrorPage from './pages/ErrorPage';
+import { Provider } from "react-redux";
+import store from "./store/store";
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+import { Router, Route, Switch } from 'react-router';
+import {createBrowserHistory} from 'history';
+
+export const history = createBrowserHistory();
+
+
+ReactDOM.render( 
+    <Provider store={store}>
+        <Router history={history}>
+            <Switch>
+                <Route exact path='/' component={App}/>
+                <Route path='/constructor' component={BurgerConstructor}/>
+                <Route component={ErrorPage} />
+            </Switch>
+        </Router>
+    </Provider>
+, document.getElementById('root'));
+
 serviceWorker.unregister();

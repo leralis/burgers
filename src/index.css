@@ -5,9 +5,142 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFAF0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.page-title{
+  text-align: center;
+}
+
+.burger-list{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 0px;
+}
+
+.burger-list__link{
+  text-decoration: none;
+  color: #2F4F4F;
+}
+
+.burger-list__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  width: 25%;
+  background-color: #FFF8DC	;
+  border: 1px solid #2F4F4F;
+  box-shadow: 2px 4px 10px -1px #2F4F4F;
+
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+.burger-list__item:hover{
+  opacity: 0.8;
+}
+
+.burger-list__image img{
+  width: 200px;
+  height: 100%;
+}
+
+.burger-list__title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.ingredients-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.ingredients-list__item{
+  margin: 10px 35px;
+  text-align: center;
+
+  font-weight: 700;
+
+}
+
+
+.ingredients-list__image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+
+
+  box-shadow: 2px 4px 10px -1px #2F4F4F;
+}
+
+
+.igredient-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.controls__button{
+  font-weight: 500;
+  padding: 5px 10px;
+  margin-left: 10px;
+
+  border-radius: 5px;
+  border: 1px solid #2F4F4F;
+  box-shadow: 2px 4px 10px -1px #2F4F4F;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  font-weight: bold;
+}
+
+.button {
+ 
+  font-weight: 700;
+  padding: 10px 100px;
+
+  background-color:  #32CD32;
+  border-radius: 5px;
+  border: 1px solid #2F4F4F;
+  box-shadow: 2px 4px 10px -1px #2F4F4F;
+}
+
+.add{
+  background-color: #8FBC8F;
+}
+
+.delete {
+  background-color: #FA8072;
 }
